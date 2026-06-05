@@ -9,9 +9,9 @@ jobs:
   build-image:
     runs-on: ubuntu-latest
 
-  steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v4
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-    - name: Build Docker Image
-      run: docker build -t docker-ci-demo:v1 .
+      - name: Build Docker Image
+        run: docker build -t docker-ci-demo:v1 .
