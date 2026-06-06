@@ -22,6 +22,6 @@ jobs:
 
       - name: Push Docker Image
         run: |
-          docker push daiusek8076/docker-ci-demo:latest
+          docker push daisuke8076/docker-ci-demo:latest
 
 
